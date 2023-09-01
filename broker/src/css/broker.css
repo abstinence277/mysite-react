@@ -1,0 +1,54 @@
+.modalBackData {
+    height: 30rem;
+    width: 50rem;
+    background: url(../img/popUP_bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem 5rem 0rem 5rem;
+}
+.popTitle {
+    width: 50rem;
+    height: 2.0rem;
+    line-height: 2.0rem;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 1.0rem;
+    margin-bottom: 1.5rem;
+    background: url(../img/line_blue.png) center left no-repeat;
+}
+.modalBackPrice {
+    height: 20rem;
+    width: 50rem;
+    background: url(../img/popUP_bg.png) center left no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem 5rem 0rem 5rem;
+}
+.close-pop {
+    height: 0.9rem;
+    width: 0.9rem;
+    background: url(../img/close.png) no-repeat;
+    cursor: pointer;
+    float: right;
+}
+.selectBroker {
+    width: 10rem;
+    float: right;
+    margin-right: 10.0rem;
+}
+.inputBroker {
+    width: 10rem;
+    margin-right: 0.6rem;
+    height: 2rem;
+}
+.switchBroker {
+    float: right;
+    width: 1rem;
+    margin-top: 0.3rem;
+    margin-right: 1.3rem;
+}
+.modalBackModel {
+    height: 20rem;
+    width: 50rem;
+    background: url(../img/popUP_bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem 5rem 0rem 5rem;
+}

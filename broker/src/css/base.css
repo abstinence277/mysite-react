@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    background:pink;
+    font-size: 30px;
+}
+#yellow{
+    background:yellow;
+}
+.hidden{
+    display: none;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.ul .li{
+    flex: 1;
+    text-align: center;
+}
+.active{
+    flex: 1;
+    text-align: center;
+    color: aqua;
+}
+.dl{
+    height: 50px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.dl .dt{
+    width: 27rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    font-size: 20px;
+    float: left;
+}
+.dl .dd{
+    font-size: 20px;
+    margin-right: 1rem;
+    color: gainsboro;
+    float: right;
+}
+input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}

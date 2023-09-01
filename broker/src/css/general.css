@@ -1,0 +1,188 @@
+/* box标题：大标题 */
+.alltitle{ 
+    font-size: 1.2rem; 
+    color: rgb(26, 90, 132); 
+    text-align: center; 
+    line-height: 2.8rem;
+    border-bottom: 1px solid rgba(26, 110, 146, 0.2)
+}
+/* 每一个box:整个页面 */
+.boxall{ 
+    border: 1px solid rgba(60, 77, 150, 0.548); 
+    padding: 0 1.3rem .4rem 1.3rem;  
+    /* background: rgba(255,255,255,.04) url(./images/line.png);  */
+    background: rgba(255,255,255,.04); 
+    background-size: 100% auto; 
+    position: relative; 
+    margin-bottom: 1.65rem; 
+    z-index: 1;
+    height: 100rem;
+}
+.boxfoot{ 
+    position:absolute; 
+    bottom: 0; 
+    width: 100%; 
+    left: 0;
+}
+/* modal框 */
+.modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-survey {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 一小栏：数据集选择，文字居中 */
+.line { 
+    margin: 1.0rem -1rem 0rem;
+    padding: .16rem 1.3rem ;
+    text-align: center;
+}
+#modal-root {
+    position: relative;
+    z-index: 99;
+}
+/* “请选择数据集” */
+.lineTitle { 
+    font-size: 1.0rem;
+    color: #000000;
+    float: left;
+}
+/* 表格 */
+.tb {
+    background-color: #0B0F2A;
+    margin: 0.5rem 0;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.tb_left {
+    float: left;
+}
+.tb>table {
+    display: block;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-spacing: 0
+}
+.tb>table td {
+    border:none;
+    height: 30px;
+    padding: 0 7rem;
+}
+.tb_title {
+    color: rgb(255, 255, 255);
+    font-size: 1.0rem;
+}
+.tb>table>tbody tr:nth-child(even) {
+    background-color: #1f223c !important;
+}
+.tb>table>thead tr {
+    background-color: #1f223c !important;
+}
+
+/* 按钮不选中 */
+.btn-a { border: none; background-color: transparent; color: rgb(21, 14, 63);}
+.btn-a:hover { color:rgb(115, 140, 196); text-decoration: none!important; cursor: pointer; }
+/* 选中且可按 */
+.btn-a-blue {border: none; background-color: transparent; color: #1890ff;}
+.btn-a-blue:hover {color:#0050b3; text-decoration: none!important; cursor: pointer;}
+/* 选中且不可按 */
+.btn-a-grey {border: none; background-color: transparent; color: #b4b4b4; }
+.btn-a-grey:hover {color:#b4b4b4; text-decoration: none!important; cursor: not-allowed;}
+
+.inputLine {
+    padding: -1.0rem 0 0 0;
+}
+
+.inputLine::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inputP {
+    float: left;
+    width: 26rem;
+    /* text-align: left; */
+}
+
+.inputP2 {
+    float: left;
+    width: 20%;
+    /* text-align: left; */
+}
+
+.inputNumber {
+    float: right;
+    width: 40%;
+    margin-right: 20%;
+}
+.inputNumber2 {
+    float: right;
+    width: 30%;
+    margin-right: 30%;
+}
+
+.ant-input-number-sm input.ant-input-number-input {
+    height: 2rem;
+    text-align: center;
+    line-height: 0px;
+}
+.ant-input-number .ant-input-number-input{
+    
+    line-height: normal;
+}
+
+.selectInput {
+    background-color: rgba(200, 18, 18, 0.04);
+    color: white;
+    opacity: 1;
+    width: 56%;
+    border-radius: 5px;
+    height: 1.5rem;
+} 
+
+.switchLine {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.switch {
+    float: left;
+    width: 5%;
+}
+
+/* modal背景 */
+.modalBackSelect {
+    height: 37rem;
+    width: 60rem;
+    background: url(../img/popUP_bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 3rem 5rem 0rem 5rem;
+}
+.title-a:hover {
+    color:rgb(115, 140, 196); 
+    text-decoration: none!important; 
+    cursor: pointer;
+}
